@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="./submit.html" method="get" entype="text/plain">
+        <label for="Name">First Name: </label>
+        <input type="text" id="Name" placeholder="Enter First Name"><br>
+        <label for="Last Name">Last Name:</label>
+        <input type="text" id="Last Name" placeholder="Enter Last Name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter email Address"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br>
+        <label for="">Gender:</label><br>
+        <label for="Male">Male:</label>
+        <input type="radio" id="Male" name="Gender" value="Male"><br>
+        <label for="Female">Female:</label>
+        <input type="radio" id="Female" name="Gender" value="Female"><br>
+        <label for="other">other:</label>
+        <input type="radio" id="other" name="Gender" value="other"><br>
+        <label for="age">Age: </label>
+        <input type="number" id="age"><br>
+        <label for="">Preferences:</label><br>
+        <label for="Acrylic">Acrylic Painting: </label>
+        <input type="checkbox" id="Acrylic"><br>
+        <label for="Oil">Oil Painting: </label>
+        <input type="checkbox" id="Oil"><br>
+        <label for="Water Color">Water Color Painting: </label>
+        <input type="checkbox" id="Water Color"><br>
+        <label for="Occupation">Select Occupation:</label>
+        
+        <select>
+        <option>Student</option>
+        <option>Teacher</option>
+        </select><br>
+        <label for="bio">Bio:</label>
+        <textarea rows="5" col="20" placeholder="Share few lines about Yourself..."></textarea><br>
+        <br><input type="Submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
